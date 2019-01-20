@@ -8,7 +8,7 @@ const Header = () => {
       Is's HEADER here.
     </div>
   );
-}
+};
 
 const Footer = () => {
   return(
@@ -17,7 +17,7 @@ const Footer = () => {
       <Link to={'/about'}>Go to About!</Link>
     </div>
   );
-}
+};
 
 const About = () => {
   return(
@@ -26,7 +26,7 @@ const About = () => {
       <Link to={'/'}>Go Home!</Link>
     </div>
   );
-}
+};
 
 class App extends Component {
   render() {
