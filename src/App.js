@@ -14,7 +14,7 @@ const Footer = () => {
   return(
     <div>
       Is's FOOTER here.
-      <Link to={'/about'}>Go to About!</Link>
+      <Link to={'/react-router-app/about'}>Go to About!</Link>
     </div>
   );
 };
@@ -23,7 +23,7 @@ const About = () => {
   return(
     <div>
       It's ABOUT here.
-      <Link to={'/'}>Go Home!</Link>
+      <Link to={'/react-router-app'}>Go Home!</Link>
     </div>
   );
 };
@@ -33,7 +33,7 @@ class App extends Component {
     return (
       <React.Fragment>
           <Route path='/' component={Header} />
-          <Route exact path='/about' component={About} />
+          <Route exact path='/react-router-app/about' component={About} />
           <Route path='/' component={Footer} />
       </React.Fragment>
     );
